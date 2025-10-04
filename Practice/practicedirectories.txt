@@ -1,0 +1,7 @@
+Hello, this is a new file to practice for working in directories.
+This is the second line.
+
+There is no line at line 3, just saying.
+Above me is the fourth line.
+
+This is the seventh!

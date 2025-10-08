@@ -7,13 +7,13 @@ def word_count(string):
     lengths = []
     for word in words:
         lengths.append(len(word))
-    length_index = []
-    lengths.sort()
-    i = 0
-    while i < (len(lengths)):
-        length_index.append([lengths[i],lengths.count(lengths[i])])
-        i += lengths.count(lengths[i])
-    return length_index
+    print(lengths)
+    lengths_index = []
+    for length in range(min(lengths),max(lengths)+1):
+        if length in lengths:
+            lengths_index.append([length, lengths.count(length)])
+
+    print(lengths_index)
  
 user_string = input("Please input a string of words:\n")
 output = word_count(user_string)

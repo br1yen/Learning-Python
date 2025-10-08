@@ -27,7 +27,7 @@ def enigma(input, output, mode):
 	infile.close()
 	outfile.close()
 	return(lines, words, chars)
-
+	
 input_path = input('What is the path of your original file? ')
 output_path = input('Where do you want your new file? ')
 user_mode = eval(input('If you are encrypting a file, type 0, but if you are decrypting a file, type 1: '))
